@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">MyWeb</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- main content -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div id="carouselExampleCaptions" class="carousel slide"></div>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="bali 3.jpg" alt="Bali" class="d-block" style="width: 100%">
+        <div class="carousel-caption">
+          <h3>Bali</h3>
+          <p>We had such a great time in Bali!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="jogja1.jpg" alt="yogja" class="d-block " style="width:100%">
+        <div class="carousel-caption">
+          <h3>Yogyakarta</h3>
+          <p>Thank you, Yogja!</p>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="bandung1.jpg" alt="Bandung" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Bandung</h3>
+          <p>We love Paris Van Java!</p>
+        </div>  
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+    
+
+<section id="home" class="hero">
+    <div class="container text-center">
+        <h1 class="display-4">Website Profil</h1>
+        <p class="lead text-center">practice exam to create a website</p>
+        <a href="#about" class="btn btn-light mt-3" style="background-color: gray;">start</a>
+    </div>
+</section>
+
+<section id="about" class="about py-5">
+    <div class="container text-center">
+        <h2 class="mb-4">What About Me?</h2>
+        <img src="WhatsApp Image 2026-04-09 at 9.32.57 AM.jpeg" width="300px" class="rounded-circle mb-4">
+        <p>
+           Hello! I'm a 9th grade student learning to create websites using HTML and Bootstrap.
+           This website was created for an informatics practical exam. I'm a person who loves scenery, Manchester United, the LA Lakers, Indomie geprek, and ice cream.
+        </p>
+    </div>
+</section>
+
+<!-- project page -->
+<section id="gallery" class="gallery py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Gallery</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card shadow">
+                    <img src="druw.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Aktor Fav</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow">
+                    <img src="kyrie.jfif" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Fav Basketballplayer</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow">
+                    <img src="turnerr.jfif" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">IDOLL</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact -->
+<section id="contact" class="contact py-5" style="background-color: gray;">
+    <div class="container">
+        <h1 class="text-center mb-4">CONTACT</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form class="bg-white p-4 rounded text-dark">
+
+                    <div class="mb-3">
+                        <label>Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label>Email</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label>message</label>
+                        <textarea class="form-control"></textarea>
+                    </div>
+                    <button class="btn btn-custom" style="background-color: gainsboro;">send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- bagian footer -->
+  <div class="container-fluid text-center text-white bg-dark pt-5 pb-5 mt-3">
+    <div class="container">
+        <h4>©2026 Practice Exam Website</h4>
+    </div> 
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
